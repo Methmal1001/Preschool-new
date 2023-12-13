@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission-SRSP</title>
+
+    <link rel="icon" href="img/newlogo.jpg" type="image/icon type">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1
+    ,600&family=Nunito:wght@300;500&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,300;
+    0,400;0,500;0,600;0,700;0,800;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- cdnjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- header design -->
+    <header class="sticky">
+        <a href="index.html" class="logo">SRS <span>Pre School</span></a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#feature">Events</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="index.html#culture">Culture</a></li>
+            <li><a href="#foot">Contact us</a></li>
+        </ul>
+
+        <div class="h-right">
+            <a href="sadmission.html">සිංහල</a>
+            <a href="#"><i class="ri-whatsapp-line"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100054371236920" target="_blank"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#"><i class="ri-google-fill"></i></a>
+            <a href="http://www.youtube.com/@saranapalapreschool" target="_blank"><i class="ri-youtube-fill"></i></a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <br><br><br><br><br>
+
+    <!-- new events and admission -->
+    <section class="holiday" id="events">
+        <div class="holiday-img">
+            <img src="img/kid1.jpg" alt="">
+        </div>
+
+        <div class="holiday-text">
+            <h5>What's new</h5>
+            <h2>Up-comming events.</h2>
+            <p>" You can download admission pdf file and can see our up-comming events. "</p>
+
+        </div>
+    </section>
+
+
+    <!-- pdf downloader -->
+    <div class="name" id="invoice">
+        <div class="details">
+            <h2>Click download button to download the Admission.</h2>
+            <button class="btn"><a href="img/admission2024.pdf" target="_blank" download="Admission.pdf">Download File</a></button>
+        </div>
+    </div>
+
+
+    <!-- Special notice -->
+    <section class="special">
+        <section id="solution">
+            <div class="solution">
+                <div class="sol-img">
+                    <img src="img/back.jpg" alt="">
+                </div>
+                <div class="sol-details">
+                    <h2>New Intake - 2024</h2>
+                    <p>"Our new intake for the year 2024 is now open. You can download the admission form above as a PDF and fill it out. 
+                        Afterward, you must meet with our staff at the preschool(9.00a.m. - 11.00a.m.) 
+                        and make the payment there. A special note: please bring the filled admission form when you come."
+                    </p>
+    
+                    <a href="admission.html#events">6th January of 2024</a>
+                </div>
+            </div>
+        </section>
+        <section id="solution">
+            <div class="solution">
+                <div class="sol-img">
+                    <img src="img/back2.jpg" alt="">
+                </div>
+                <div class="sol-details">
+                    <h2>New Intake - 2024</h2>
+                    <p>"Our new intake for the year 2024 is now open. You can download the admission form above as a PDF and fill it out. 
+                        Afterward, you must meet with our staff at the preschool(9.00a.m. - 11.00a.m.) 
+                        and make the payment there. A special note: please bring the filled admission form when you come."
+                    </p>
+    
+                    <a href="admission.html#events">6th January of 2024</a>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+    <!-- Feedback -->
+    <div class="con-intro">
+        <h3>We warmly welcome <span>Your Feedback</span> to upgrade our Pre School very well.</h3>
+        <p>Feel free to send your thoughts about our services.</p>
+    </div>
+    <main>
+        <section>
+            <div class="contact-container">
+                <!-- Detail Form -->
+                <div class="form-container">
+                    <h3>Message Us</h3>
+                    <form action="./php/details.php" method="post" class="contact-form">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                        <input type="text" name="town" id="town" placeholder="Home Town" required>
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                        <input type="submit" name="send" value="Send" class="send-button">
+                    </form>
+                </div>
+    
+                <!-- Map -->
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15832.347855099817!2d80.00843351152598!3d7.230921421535349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e3f21cf656a3%3A0xa419ea10fe0c9da7!2sDivulapitiya!5e0!3m2!1sen!2slk!4v1700020019769!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- js link -->
+    <script src="js/jscript.js"></script>
+
+
+    <!-- footer -->
+    <section class="footer" id="foot">
+        <div class="footer-box">
+            <h3>Services</h3>
+            <a href="#">Children education development</a>
+            <a href="#">Developping group works</a>
+            <a href="#">Increasing peer group learning</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>About</h3>
+            <a href="#">Our past activities</a>
+            <a href="#">Learning outcomes</a>
+            <a href="#">Special events</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <a href="#" class="deco"><i class="ri-phone-line"></i> - +94 31 xxxx xxx</a>
+            <a href="#"><i class="ri-mail-line"></i> - saranapaala@gmail.com</a>
+            <a href="#"><i class="ri-map-pin-line"></i> - Puraana Bodhi Vihaaraya, Dunagaha</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Socials</h3>
+            <div class="social">
+                <a href="#"><i class="ri-whatsapp-line"></i></a>
+                <a href="https://web.facebook.com/profile.php?id=100054371236920" target="_blank"><i class="ri-facebook-circle-line"></i></a>
+                <a href="#"><i class="ri-google-fill"></i></a>
+                <a href="http://www.youtube.com/@saranapalapreschool" target="_blank"><i class="ri-youtube-fill"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- final -->
+    <div class="final">
+        <p>All rights reserved by &copy SRSP</p>
+    </div>
+
+    <!-- js link -->
+    <script src="js/jscript.js"></script>
+
+    </body>
+</html>
